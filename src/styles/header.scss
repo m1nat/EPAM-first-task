@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap");
+
+header {
+  width: 100%;
+  height: 140px;
+  background: url("https://habrastorage.org/webt/9t/9l/vm/9t9lvmkomk56v41_-tso6mohnb0.png")
+    no-repeat center right;
+  background-size: contain;
+
+  .header-user-info {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__photo {
+      position: absolute;
+      left: 5%;
+      top: 42px;
+      width: 190px;
+      height: 190px;
+      border: 8px solid #404156;
+      border-radius: 50%;
+      background: url("/src/shared/assets/gpBVO_cfvbs.jpg") no-repeat center
+        center;
+      background-size: cover;
+    }
+
+    &__full-name {
+      width: 30%;
+      height: 100%;
+      color: #404156;
+      font-family: "Expletus Sans", cursive;
+      padding-top: 50px;
+      padding-left: 10px;
+      text-shadow: 1px 1px 2px #211F1F;   
+      margin-left: 250px;   
+      
+      h4 {
+        padding-left: 10px;
+      }
+    }
+  }
+}

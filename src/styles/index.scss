@@ -1,0 +1,22 @@
+@import "./header.scss";
+@import "./body.scss";
+@import "./footer.scss";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(131, 134, 134);
+  background: linear-gradient(
+    5deg,
+    rgba(131, 134, 134, 1) 4%,
+    rgba(251, 214, 1, 1) 64%
+  );
+}
